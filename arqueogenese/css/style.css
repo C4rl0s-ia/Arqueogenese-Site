@@ -63,12 +63,67 @@ header {
     float: left;
 }
 
-/*Titulo Pontoshistóricos e pesquisa*/
+/*Titulo Pontos históricos e pesquisa*/
 
 #titulo {
     display: flex;
     justify-content: center;
     padding: 10px;
+}
+
+/*Box padrão para titulo*/
+
+/*Atualizei o titulos e começei o embelezamento da aba de novidades*/
+
+#novidade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    box-shadow: black 0px -1px 10px 3px;
+    background-color: #8a4d1b;
+    margin-top: 10px;
+}
+
+#aba_novidades {
+    font-size: 25px;
+}
+
+#bem_vindo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    box-shadow: black 0px -1px 10px 3px;
+    background-color: #8a4d1b;
+    margin-top: 10px;
+    width: 623px;
+}
+
+#text_lado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    box-shadow: black 0px -1px 10px 3px;
+    background-color: #8a4d1b;
+    margin-top: 10px;
+    width: 995px;
+}
+
+#titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    box-shadow: black 0px -1px 10px 3px;
+    background-color: #8a4d1b;
+    margin: 10px;
+    width: 98.52%;
 }
 
 /*Estilo personalizado dos botões*/
@@ -252,6 +307,8 @@ visando realizar um entendimento melhor o parâmetro overflow do CSS*/
         height: 260px;
         overflow: hidden scroll;
     }
+
+
 }
 
 @media (max-width: 980px) {
@@ -287,6 +344,12 @@ visando realizar um entendimento melhor o parâmetro overflow do CSS*/
         align-items: center;
         justify-content: center;
         display: flex;
+    }
+
+    #novidade {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
 }

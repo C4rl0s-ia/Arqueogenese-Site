@@ -1,7 +1,7 @@
 <?php
 include_once("template/header.php");
 ?>
-
+<!--Adicionei um style nos titulos para deixar padronizado o fluxo dentro do site-->
 <br />
 
 <section>
@@ -80,11 +80,11 @@ include_once("template/header.php");
 
       </div>
   </article>
-
-  <div id="titulo" class="container-md">
-    <h3>Pontos históricos e Pesquisa</h3>
+<br>
+  <div class="container-md">
+    <h3 id="titulo">Pontos históricos e Pesquisa</h3>
   </div>
-
+<br>
   <div id="contai" class="container-md">
     <div class="container-md text-center">
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 grid gap-0 row-gap-3">

@@ -2,13 +2,23 @@
   include_once("template/header.php");
 ?>
 
-<!--Feito por Angelo-->
+<!--Comecei a realizar a alteração da aba em si para um embelezamento-->
 
-  <br>
+<secttion>
+  <div class="container-md">
 
-<section>
+    <div id="novidade"><h2 id="aba_novidades">Opa, hora de ficar atento as novidades</h2></div>
+    
+    <p></p>
 
-</section>
+    <p></p>
+
+    <p></p>
+
+    <p></p>
+  
+  </div>
+</secttion>
 
 
 <?php
