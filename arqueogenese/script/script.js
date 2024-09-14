@@ -1,4 +1,6 @@
-const openModalButton = document.querySelector("#open-modal");
+/*ainda em andamento estrutural*/
+
+/*const openModalButton = document.querySelector("#open-modal");
 const closeModalButton = document.querySelector("#close-modal");
 const modal = document.querySelector("#modal");
 const fade = document.querySelector("#fade");
@@ -10,4 +12,4 @@ const toggleModal = () => {
 
 [openModalButton, closeModalButton, fade].forEach((el) => {
   el.addEventListener("click", () => toggleModal());
-});
+});*/

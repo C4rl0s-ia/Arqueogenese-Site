@@ -22,8 +22,7 @@
       <nav class="navbar navbar-expand-lg ">
         <div class="container-fluid">
             <a class="navbar-brand nav-link" href="index.php">
-              <img id="logo" class="titlle" src="image/favicon/favicon_arqueologo.png" alt="ArqueoGênese">
-              ArqueoGênese
+              <img id="logo" class="titlle" src="image/favicon/favicon_arqueologo.png" alt="ArqueoGênese">       
             </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -32,16 +31,16 @@
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <ul class="nav justify-content-end">
                 <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="Newsobre.php">sobre</a>
+                  <a class="nav-link st" aria-current="page" href="Newsobre.php">sobre</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="services.php">serviços</a>
+                  <a class="nav-link st" href="services.php">serviços</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="News.php">novidades</a>
+                  <a class="nav-link st" href="News.php">novidades</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contacts.php">contatos</a>
+                  <a class="nav-link st" href="contacts.php">contatos</a>
                 </li>
               </ul>
             </ul>
@@ -57,3 +56,9 @@
   </header>
 
 <!--Carlos Agusto essa parte-->
+<!-- 
+  Houve alterações no logo, retirando o nome "Arqueogenese" e deixando apenas a imagem do site.
+  Além disso, houve alteração na cor das leitas utilizando o :hover e o atributo transaction para black e 1s, respectivamente, no 
+  menu e da opção de "Procurar". 
+
+-->
